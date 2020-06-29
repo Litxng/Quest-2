@@ -2,7 +2,7 @@
 
 Monday Quest 2
 
-Team members  
+Team Members:  
 LiTong Liu  
 Jinkang Fang  
 Caitlyn Wong
