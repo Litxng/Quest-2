@@ -1,48 +1,61 @@
 <html>
 
-<head>
-    <title>About</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" </head>
-</head>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" </head>
+    </head>
     
-<body>
+    <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">About Page</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="assets/Black_Lives_Matter_logo.svg.png" height="50px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
 
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
             </div>
-          </nav>
+        </nav>
 
-
-
-        <h1>About Us</h1>
-        <p>#BlackLivesMatter was created in response to Trayvon Martin's murder. We are an organization that works to raise money to support BLM. We work to eradicate white supremacy and violence that is directed towards African Americnas. Our system is unjust and needs to change.</p>
-        <img src="assets/Black_Lives_Matter_logo.png" width=200px>
-
-        <br><br><hr>
-        <h2>Leave your questions below:</h2>
-        <form>
-            <input type="email" placeholder="email">
-            <br><br>
-            <textarea rows="10" columns="15"></textarea>
+        <!--Content-->
+        
+        <div class="content">
+            <h1>About Us</h1>
             <br>
-            <button>Send</button>
-        </form>
+            <p>
+                #BlackLivesMatter was created in response to Trayvon Martin's murder. <br>
+                We are an organization that works to raise money to support BLM. <br>
+                We work to eradicate white supremacy and violence that is directed towards African Americans. <br>
+                Our system is unjust and needs to change.
+            </p>
+
+            <br>
+            <hr class="about">
+            <br>
+            
+            <div class="questions">
+                <h2>Leave your questions below:</h2>
+                <form>
+                    <input class="box" type="email" placeholder="name@company.com" width="100px" style="padding-left: 15px;"> <br>
+                    <textarea class="question_textarea box" rows="5" cols="50" placeholder="Questions here"></textarea> <br>
+                    <button class="box">Send</button>
+                </form>
+            </div>
+            
+        </div>
+        
+        <img class="background_image" src="assets/protesting2.jpg">
+        
     </body>
 
 </html>
